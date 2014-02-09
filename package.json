@@ -1,0 +1,34 @@
+{
+  "name": "tart-browser-stem",
+  "version": "0.0.0",
+  "description": "Tart browser bootstrapping stem",
+  "scripts": {
+    "inject-examples": "node scripts/injectExamples.js",
+    "readme": "node examples/readme.js",
+    "test": "node scripts/test.js"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "nodeunit": "0.8.4",
+    "tart": "0.2.x",
+    "tart-stepping": "0.2.1"
+  },
+  "dependencies": {
+    "setimmediate": "1.0.1",
+    "tart-marshal": "x",
+    "tart-transport-httpc": "x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/tart-browser-stem.git"
+  },
+  "keywords": [
+    "tart",
+    "browser",
+    "stem",
+    "boostrap",
+    "actor"
+  ],
+  "author": "Tristan Slominski <tristan.slominski@gmail.com>",
+  "license": "MIT"
+}
